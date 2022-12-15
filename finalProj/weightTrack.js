@@ -29,7 +29,7 @@ app.get("/", (request, response) => {
 }); 
 
 app.get("/input", (request, response) => {
-    let formAction = `"http://localhost:${portNumber}/input"`
+    let formAction = `"https://cmsc335fall2022finalproject.onrender.com/input"`
     response.render("weightInput", {portNum:formAction});
 }); 
 
@@ -51,7 +51,7 @@ app.post("/input", async (request, response) => { /* You implement */
 });
 
 app.get("/review", (request, response) => {
-    let formAction = `"http://localhost:${portNumber}/review"`
+    let formAction = `"https://cmsc335fall2022finalproject.onrender.com/review"`
     response.render("review", {portNum:formAction});
 }); 
 
@@ -92,7 +92,7 @@ app.post("/review", async (request, response) => {
 
 
 app.get("/time", (request, response) => {
-    let formAction = `"http://localhost:${portNumber}/time"`
+    let formAction = `"https://cmsc335fall2022finalproject.onrender.com/time"`
     response.render("time", {portNum:formAction});
 }); 
 
@@ -139,7 +139,7 @@ app.post("/time", async (request, response) => {
 
 
 app.get("/removeAll", (request, response) => {
-    let formAction = `"http://localhost:${portNumber}/removeAll"`
+    let formAction = `"https://cmsc335fall2022finalproject.onrender.com/removeAll"`
     response.render("remove", {portNum:formAction});
 }); 
 
