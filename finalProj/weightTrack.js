@@ -162,7 +162,7 @@ app.post("/removeAll", async (request, response) => {
 
 
 app.listen(portNumber)
-console.log(`Web server started and running at http://localhost:${portNumber}`)
+console.log(`Web server started and running at https://cmsc335fall2022finalproject.onrender.com/`)
 
 
 const prompt = "Stop to shutdown the server: "
