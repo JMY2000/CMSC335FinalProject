@@ -1,7 +1,7 @@
 Team Members
 Christopher Tang (ctang127)
-Jonathon Yee
-Andrew
+Jonathan Yee (jyee5)
+Andrew Phillips (andrewp3)
 
 
 
@@ -20,6 +20,7 @@ on their specified measurements.
 
 API Links
 https://rapidapi.com/principalapis/api/body-mass-index-bmi-calculator/
+
 
 
 YouTube Demo Video
