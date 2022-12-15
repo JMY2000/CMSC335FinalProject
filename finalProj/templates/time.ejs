@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Weight Trcaking Within Timeline</title>
+    <link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1>Display Weights Within Timeline</h1>
+    <form action=<%- portNum %> method="post">
+        <fieldset>
+            <label for="name"><strong>Name: </strong></label>
+            <input type="text" name="name" id="name"><br><br>
+
+            <label for="startMonth"><strong>Starting Month</strong></label>
+            <input type="number" name="startMonth" id="startMonth">
+
+            <label for="startYear"><strong>Starting Year</strong></label>
+            <input type="number" name="startYear" id="startYear"><br>
+
+            <label for="endMonth"><strong>Ending Month</strong></label>
+            <input type="number" name="endMonth" id="endMonth">
+
+            <label for="endYear"><strong>Ending Year</strong></label>
+            <input type="number" name="endYear" id="endYear"><br><br>
+        </fieldset><br>
+
+        <input type="reset" name="reset" id="reset" value="Reset">
+        <input type="submit" name="submit" id="submit" value="Submit Request">
+    </form>
+
+    <hr>
+    <a href="/">HOME</a>
+</body>
+
+</html>

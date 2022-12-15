@@ -1,0 +1,11 @@
+html {
+    background-color: lightblue;
+}
+
+h1 {
+    color: black;
+}
+
+table,th,td {
+    border:1px solid
+}
