@@ -14,7 +14,7 @@ const userName = process.env.MONGO_DB_USERNAME;
 const password = process.env.MONGO_DB_PASSWORD;
 const dataBase = process.env.MONGO_DB_NAME;
 const collection = process.env.MONGO_DB_COLLECTION;
-const portNumber = (process.argv[2])
+const portNumber = process.env.PORT || 3000
 
 const app = express()
 app.set("views", path.resolve(__dirname, "templates"));
@@ -214,11 +214,6 @@ async function lookUpWeight(client, databaseAndCollection, name) {
        return (-1);
    }
 }
-
-
-
-
-
 
 
 
